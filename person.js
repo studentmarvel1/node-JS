@@ -1,0 +1,14 @@
+class person {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age
+    }
+
+    greeting(){
+       console.log(`My Name is ${this.name} and I am ${this.age}`);
+    }
+}
+
+
+
+module.exports = person;
